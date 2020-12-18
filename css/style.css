@@ -2741,6 +2741,9 @@ opacity: 0.8;
   .shiftleft{
     margin-left: -40px;
   }
+  h1, .h1{
+    font-size: 4.5rem;
+  }
 }
 
 @media (min-width: 768px){
