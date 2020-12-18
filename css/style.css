@@ -85,16 +85,44 @@
 
 /* custom */
 .we_help{
-  background-color: #f3ec78;
+  background-color: #CA4246;
     background-image: linear-gradient(121deg, #ff4f84 0%, #cc67b6 32%, #9078e4 51%, #737ffa 79%, #6ef9d0 100%);
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent; 
     -moz-text-fill-color: transparent;
+    animation: rainbow-text-simple-animation-rev 0.75s ease forwards;
     letter-spacing: normal;
     line-height: normal;
 }
+.we_help:hover{
+  animation: rainbow-text-simple-animation 0.5s ease-in forwards;
+}
+@keyframes rainbow-text-simple-animation-rev {
+  0% {
+      background-size: 650%;
+  }
+  40% {
+      background-size: 650%;
+  }
+  100% {
+      background-size: 100%;
+  }
+}
 
+/* Move the background and make it larger. */
+/* Animation shown when hovering over the text. */
+@keyframes rainbow-text-simple-animation {
+  0% {
+      background-size: 100%;
+  }
+  80% {
+      background-size: 650%;
+  }
+  100% {
+      background-size: 650%;
+  }
+}
 /* .we_help{
   background-image: linear-gradient(121deg, #ff4f84 0%, #cc67b6 32%, #9078e4 51%, #737ffa 79%, #6ef9d0 100%);
   -webkit-background-clip: text;
