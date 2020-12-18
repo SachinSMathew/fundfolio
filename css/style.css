@@ -85,13 +85,24 @@
 
 /* custom */
 .we_help{
-  -webkit-text-fill-color: transparent;
-  background: -webkit-gradient(linear, left top, left bottom, from(#ff0052), to(#8e2b88));
-  background: -o-gradient(linear, left top, left bottom, from(#ff0052), to(#8e2b88));
+  background-color: #f3ec78;
+    background-image: linear-gradient(121deg, #ff4f84 0%, #cc67b6 32%, #9078e4 51%, #737ffa 79%, #6ef9d0 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+/* .we_help{
+  background-image: linear-gradient(121deg, #ff4f84 0%, #cc67b6 32%, #9078e4 51%, #737ffa 79%, #6ef9d0 100%);
   -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
   letter-spacing: normal;
   line-height: normal;
-}
+} */
 
 #submit_form{
   cursor: not-allowed;
