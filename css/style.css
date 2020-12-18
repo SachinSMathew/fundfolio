@@ -85,13 +85,12 @@
 
 /* custom */
 .we_help{
-  display: inline;
   background-color: #CA4246;
     background-image: linear-gradient(121deg, #ff4f84 0%, #cc67b6 32%, #9078e4 51%, #737ffa 79%, #6ef9d0 100%);
     -webkit-background-clip: text;
     -moz-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-text-fill-color: transparent;
+    -webkit-text-fill-color: rgba (0,0,0,0.0001); 
+    -moz-text-fill-color: rgba (0,0,0,0.0001);
     animation: rainbow-text-simple-animation-rev 0.75s ease forwards;
     letter-spacing: normal;
     line-height: normal;
