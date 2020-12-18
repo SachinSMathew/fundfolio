@@ -80,7 +80,7 @@
 @import url('navigation.css');
 @font-face {
   font-family: gilroy;
-  src: url('../fonts/Gilroy-ExtraBold.otf') format("opentype");
+  src: url('../fonts/Gilroy-ExtraBold.otf');
 }
 
 /* custom */
@@ -657,7 +657,7 @@ a.brand:focus{
 }
 
 .brand-name{
-  font-family: "Gilroy-ExtraBold";
+  font-family: "gilroy-ExtraBold";
   font-weight: 600;
   font-size: 1.714rem;
   line-height: 1;
@@ -1530,7 +1530,7 @@ opacity: 0.8;
 }
 
 .mfp-close{
-  font-family: "Gilroy-ExtraBold";
+  font-family: "gilroy-ExtraBold";
   line-height: 1;
   width: auto;
   height: auto;
@@ -1827,7 +1827,7 @@ opacity: 0.8;
 }
 
 .map-info{
-  font-family: "Gilroy-ExtraBold";
+  font-family: "gilroy-ExtraBold";
   font-weight: 400;
   color: #666666;
   text-align: left;
