@@ -1,0 +1,550 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="fundfolio - financial freedom for all.">
+  <meta name="author" content="Sharique Samsudheen">
+
+  <!-- Favicons -->
+  <link rel="shortcut icon" href="./Assets/fundfolio_fav_ico.png">
+  <link rel="apple-touch-icon" href="./Assets/fundfolio_fav_ico.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="./Assets/fundfolio_fav_ico.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="">
+
+  <title style="font-family: Gilroy-ExtraBold;">fundfolio.</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+  <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-166954131-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-166954131-1');
+</script>
+
+  <!-- Styles -->
+  <link href="css/style.css" rel="stylesheet" media="screen">
+  <link href="css/dark.css" rel="stylesheet" media="screen">
+</head>
+<body>
+
+  <!-- Loader -->
+  <div class="loader">
+    <div class="spinner">
+      <div class="double-bounce1"></div>
+      <div class="double-bounce2"></div>
+    </div>
+  </div>
+
+  <div class="wrapper boxed">
+
+    <!-- Content CLick Capture-->
+    <div class="click-capture">
+      <script>
+        function lockScroll() {
+              document.body.classList.toggle('lock-scroll');
+        }
+  </script>
+    </div>
+
+    <!-- Sidebar Menu-->
+    <div class="menu">
+      <span class="close-menu icon-cross right-boxed"></span>
+      <nav class="nav mobile-menu">
+        <ul class="menu-list right-boxed">
+          <li>
+            <a  href="#main">Home</a>
+          </li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#projects">Products</a>
+          </li>
+          <li>
+            <a href="#clients">Partners</a>
+          </li>
+          <!--<li>
+            <a href="#team">Team</a>
+          </li>-->
+          <li>
+            <a href="#contacts">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="menu-footer right-boxed">
+        <div class="social-list">
+          <a href="https://www.facebook.com/fundfolio.in" class="icon ion-social-facebook"></a>
+          <a href="https://twitter.com/MarketfeedNews" class="icon ion-social-twitter"></a>
+          <a href="https://www.youtube.com/channel/UC9CKy1ai9qI8p6_Oh0Qa3Rg" class="icon ion-social-youtube"></a>
+          <a href="https://www.instagram.com/fundfoliohq/" class="icon ion-social-instagram"></a>
+          <a href="https://www.t.me/fundfolio" class="fa fa-telegram" ></a>  
+        </div>
+        <div class="copy">© fundfolio 2020. All Rights Reserved.</div>
+      </div>
+    </div>
+
+    <!-- Navbar -->
+    <header class="navbar boxed js-navbar">
+
+      <!-- Brand -->
+      <a class="brand adjust-left" href="#">
+        <img alt="" src="./Assets/Logo.svg">
+      </a>
+
+      <!-- Button -->
+      <button type="button" class="navbar-toggle hidden-lg" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <!-- Social -->
+      <div class="social-list hidden-xs">
+        <a href="https://www.facebook.com/fundfolio.in" class="icon ion-social-facebook"></a>
+        <a href="https://twitter.com/MarketfeedNews" class="icon ion-social-twitter"></a>
+        <a href="https://www.youtube.com/channel/UC9CKy1ai9qI8p6_Oh0Qa3Rg" class="icon ion-social-youtube"></a>
+        <a href="https://www.instagram.com/fundfoliohq/" class="icon ion-social-instagram"></a>
+        <a href="https://www.t.me/fundfolio"><i class="fa fa-telegram" aria-hidden="true" ></i></a>
+
+      </div>
+
+      <!-- Spacer -->
+      <div class="navbar-spacer pull-right visible-lg"></div>
+
+      <!-- Navigation -->
+      <nav class="nav navigation visible-lg">
+        <ul>
+          <li>
+            <a  href="#main">Home</a>
+          </li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#projects">Products</a>
+          </li>
+          <li>
+            <a href="#clients">Partners</a>
+          </li>
+          <!--<li>
+            <a href="#team">Team</a>
+          </li>-->
+          <li>
+            <a href="#contacts">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+
+    </header>
+
+    <!-- Main Jumbotron -->
+    <main id="main" class="container">
+      <div class="row col-xs-12">
+        <div class="flex-container col-xs-12 col-sm-7 justify-content-center heading" >
+          <div class="box_item">
+            <div class="box_item_inner we_help"><h1>We help you win the<br>Stock Market.</h1></div>
+            <div class="box_item_inner" ><h3>Join the next billion revolution</h3></div>
+            <div class="box_item_inner">
+              <a href="#contacts">
+              <button class="btn-upper btn-yellow btn" style="border-radius: 200px;">Join Us!</button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="box_item col-sm-4 earth-pos" >
+          <div class="dots-image">
+            <img alt="" class="earth" style="width: 100%; height: 100%;" src="./Assets/Image 1.svg">
+            <div class="dot"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div class="content">
+
+      <!-- Section About -->
+      <section id="about" class="section section-about container">
+        <div  class="row col-sm-12" style="display: flex; flex-direction: row-reverse; justify-content: center;">
+          <div class="col-xs-12 col-md-6" style="column-gap: normal; float: left;">
+            <div>
+            <strong class="section-subtitle">About</strong>
+            <h2 class="section-title section-about-title">We are democratizing capital markets.</h2>
+            <p class="para" style="opacity: 0.4;">Our products are meticulously designed to disentangle and simplify financial assets and capital markets. Our class-leading platforms offer end-to-end integration of pragmatic learning , actionable insights and a snowballing community.</p>
+            </div>
+            <div class="experience-box">
+              <div class="experience-border"></div>
+              <div class="experience-content shiftleft">
+                <div class="experience-number">500k+</div>
+                <br><div style="  letter-spacing: normal;
+                line-height: normal; color: #ffffff; opacity: 0.4;" >Community<br>members</div> 
+              </div>
+            </div>
+          </div>
+          <div id="del" class="col-md-6 second-img-mob">
+            <div class="dots-image">
+              <img alt="" class="about-img img-responsive" style="padding-top: 37%;
+              width: 75%;
+              height: 75%;
+              padding-right: 50px;" src="Assets/Image_02.svg" align=right>
+              <div class="dots"></div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+      <!-- What we do-->
+
+      <section class="section bg-dots">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="section-info">
+                <div class="title-hr wow fadeInLeft"></div>
+                <div class="info-title">What We Do</div>
+              </div>
+            </div>
+            <div class="col-md-9">
+              <div class="row-services row">
+                <div class="col-service col-sm-6 col-lg-4 wow fadeInUp">
+                  <img class="img-responsive" src="./Assets/ico_educate.png">
+                  <!--<span class="icon icon-apartment"></span>-->
+                  <h4>Educate</h4>
+                  <p>High quality, proven educational modules that can help anyone learn about the stock market.</p>
+                </div>
+                <div class="col-service col-sm-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+                  <img class="img-responsive" src="./Assets/ico_engage.png">
+                  <h4>Engage</h4>
+                  <p>Once they learn about the stock market, we provide users with platforms where they can engage, discuss and keep themselves updated about the developments in the market.</p>
+                </div>
+                <div class="clearfix visible-sm visible-md"></div>
+                <div class="col-service col-sm-6 col-lg-4 wow fadeInUp" data-wow-delay="0.8s">
+                  <img class="img-responsive" src="./Assets/ico_elevate.png">
+                  <h4>Elevate</h4>
+                  <p>Now our users are active participants, we provide them with tools and services which make sure they win in the stock market.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section Projects -->
+      <section id="projects" class="section-projects section">
+        <div  class="container container1">
+          <div  class="row">
+            <div class="col-lg-5">
+               <h2 class="section-title">Our Products</h2>
+            </div>        
+          </div>
+        </div>
+
+        <div class="project-carousel owl-carousel item_c justify-content-center owl-stage-outer1" >
+          <!-- Project Marketfeed -->
+          <a href="https://marketfeed.news/" class="project-item item-shadow ">
+            <img alt="" class="img-responsive" style="height: 100%;" src="Assets/product_marketfeed.png">
+            <div class="project-hover justify-content-center">
+                <img class="project-hover-content" style="padding-top: 30%;" src="Assets/logo_marketfeed_bg_dark@1x.svg">
+                <p class="project-description">Curated noise-free market news, realtime screeners, live feed and more.
+                  Track market movements by analysing global indices, market sectors and hourly reports.</p>
+            </div>
+            <span class="link-arrow">Visit website<i class="icon ion-ios-arrow-right"></i></span>
+          </a>
+
+          <!-- Project Breakout -->
+          <a href="https://breakout.army/" class="project-item item-shadow ">
+            <img alt="" class="img-responsive" style="height: 100%;" src="Assets/product_breakout.png">
+            <div class="project-hover justify-content-center">
+                <img class="project-hover-content" style="padding-top: 30%;" src="Assets/logo_breakout.png">
+                <p class="project-description">Learn directly from seasoned stock market experts. Taste the secret sauce in their journey to success.</p>
+            </div>
+            <span class="link-arrow">Visit website <i class="icon ion-ios-arrow-right"></i></span>
+          </a> 
+
+          <!-- Project Openstock -->
+          <a href="#project2" class="project-item item-shadow ">
+            <img alt="" class="img-responsive" style="height: 100%;" src="Assets/product_openstock.png">
+            <div class="project-hover justify-content-center">
+                <img class="project-hover-content" style="padding-top: 30%;" src="Assets/logo_openstock_bg_dark@1x.svg">
+                <p class="project-description">Practice your strategies in a live trading environment without risking your money. Transform your theoretical skills to practical experiences.</p>
+            </div>
+            <span class="link-arrow">Coming Soon! <i class="icon ion-ios-arrow-right"></i></span>
+          </a>    
+        </div>
+      </section>
+
+      <!-- Section Partners -->
+      <section id="clients" class="section-clients section bg-dots">
+        <div class="container container1">
+          <h2 class="section-title">Our Partners.</h2><br>
+          <div class="partner-carousel owl-carousel justify-content-center">
+            <div class="partner-carousel-item">
+              <img alt="" style="width: 100%" src="./Assets/clients/clients_zerodha_01.png">
+            </div>
+            <div class="partner-carousel-item">
+              <img alt="" style="width: 100%" src="./Assets/clients/clients_upstox_03.png">
+            </div>
+            <div class="partner-carousel-item">
+              <img alt="" style="width: 100%" src="./Assets/clients/clients_tradingview_04.png">
+            </div>
+            <div class="partner-carousel-item">
+              <img alt="" style="width: 100%" src="./Assets/clients/clients_tickertape_05.png">
+            </div>
+            <!-- <div class="partner-carousel-item">
+              <img alt="" style="width: 100%" src="./Assets/clients/clients_sensibull_02.png">
+            </div> -->
+            <div class="partner-carousel-item">
+              <img alt="" style="width: 100%" src="./Assets/clients/clients_goldenpi_06.png">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section Team 
+      <section id="team" class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="section-info">
+                <div class="title-hr wow fadeInLeft"></div>
+                <div class="info-title">Meet Our Team</div>
+              </div>
+            </div>
+            <div class="col-md-9">
+              <div class="row-team row">
+                <div class="col-team col-xs-6 col-md-4 wow fadeIn">
+                  <div class="team-profile">
+                    <img alt="" src="images/team/1-270x270.jpg">
+                    <div class="team-hover">
+                      <div class="team-content">
+                        <div class="team-name">
+                          <h6>Sharique Samsudheen</h6>
+                          <div class="team-spec">CEO & Founder</div>
+                        </div>
+                        <div class="team-social">
+                          <a href="" class="icon ion-social-twitter"></a>
+                          <a href="" class="icon ion-social-facebook"></a>
+                          <a href="" class="icon ion-social-linkedin"></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-team col-xs-6 col-md-4 wow fadeIn" data-wow-delay="0.3s">
+                  <div class="team-profile">
+                    <img alt="" src="images/team/2-270x270.jpg">
+                    <div class="team-hover">
+                      <div class="team-content">
+                        <div class="team-name">
+                          <h6>Sooraj Elamana</h6>
+                          <div class="team-spec">CTO & Co-Founder</div>
+                        </div>
+                        <div class="team-social">
+                          <a href="" class="icon ion-social-twitter"></a>
+                          <a href="" class="icon ion-social-facebook"></a>
+                          <a href="" class="icon ion-social-linkedin"></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-team col-xs-6 col-md-4 wow fadeIn" data-wow-delay="0.6s">
+                  <div class="team-profile">
+                    <img alt="" src="images/team/3-270x270.jpg">
+                    <div class="team-hover">
+                      <div class="team-content">
+                        <div class="team-name">
+                          <h6>Vivek Krishna</h6>
+                          <div class="team-spec">Design & Product</div>
+                        </div>
+                        <div class="team-social">
+                          <a href="" class="icon ion-social-twitter"></a>
+                          <a href="" class="icon ion-social-facebook"></a>
+                          <a href="" class="icon ion-social-linkedin"></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-team col-xs-6 col-md-4 wow fadeIn">
+                  <div class="team-profile">
+                    <img alt="" src="images/team/4-270x270.jpg">
+                    <div class="team-hover">
+                      <div class="team-content">
+                        <div class="team-name">
+                          <h6>Ajay Ajith</h6>
+                          <div class="team-spec">Content Strategy</div>
+                        </div>
+                        <div class="team-social">
+                          <a href="" class="icon ion-social-twitter"></a>
+                          <a href="" class="icon ion-social-facebook"></a>
+                          <a href="" class="icon ion-social-linkedin"></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-team col-xs-6 col-md-4 wow fadeIn" data-wow-delay="0.3s">
+                  <div class="team-profile">
+                    <img alt="" src="images/team/5-270x270.jpg">
+                    <div class="team-hover">
+                      <div class="team-content">
+                        <div class="team-name">
+                          <h6>Naveen Sunil</h6>
+                          <div class="team-spec">Head of Marketing</div>
+                        </div>
+                        <div class="team-social">
+                          <a href="" class="icon ion-social-twitter"></a>
+                          <a href="" class="icon ion-social-facebook"></a>
+                          <a href="" class="icon ion-social-linkedin"></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-team col-xs-6 col-md-4 wow fadeIn" data-wow-delay="0.3s">
+                  <div class="team-profile">
+                    <img alt="" src="images/team/5-270x270.jpg">
+                    <div class="team-hover">
+                      <div class="team-content">
+                        <div class="team-name">
+                          <h6>Naveen Sunil</h6>
+                          <div class="team-spec">Head of Marketing</div>
+                        </div>
+                        <div class="team-social">
+                          <a href="" class="icon ion-social-twitter"></a>
+                          <a href="" class="icon ion-social-facebook"></a>
+                          <a href="" class="icon ion-social-linkedin"></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>-->
+
+      <!-- Section Contacts -->
+      <section id="contacts">
+        <div class="section bg-dots">
+          <section>
+            <div class="container">
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="section-info">
+                    <div class="title-hr wow fadeInLeft"></div>
+                    <div class="info-title">Keep in touch</div>
+                  </div>
+                </div>
+                <div class="col-md-9">
+                  <div class="row-contact row">
+                    <div class="col-contact col-lg-6">
+                      <h3 class="contact-title contact-top">Kochi, <span>Kerala IN</span></h3>
+                      <p class="contact-row"><strong class="text-white">Email:</strong> support@fundfolio.in</p>
+                    </div>
+                    <div class="col-contact col-lg-6">
+                      <div class="text-muted"><strong class="text-white">Follow us</strong><br>
+                        <div class="contact-social social-list">
+                          <a href="https://www.facebook.com/fundfolio.in" class="icon ion-social-facebook"></a>
+                          <a href="https://twitter.com/MarketfeedNews" class="icon ion-social-twitter"></a>
+                          <a href="https://www.youtube.com/channel/UC9CKy1ai9qI8p6_Oh0Qa3Rg" class="icon ion-social-youtube"></a>
+                          <a href="https://www.instagram.com/fundfoliohq/" class="icon ion-social-instagram"></a>
+                          <a href="https://www.t.me/fundfolio" class="fa fa-telegram" ></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="section-message">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="section-info">
+                    <div class="title-hr wow fadeInLeft"></div>
+                    <div class="info-title">need help?</div>
+                  </div>
+                </div>
+                <div class="col-md-9">
+                  <form id ="#contact" lass="js-form" onsubmit="sendMessage(event)">
+                    <div class="row" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+                      <div class="form-group col-sm-6 col-lg-4">
+                        <input id="#form-name" class="input-gray" type="text" name="name" required placeholder="Name*">
+                      </div>
+                      <div class="form-group col-sm-6 col-lg-4">
+                        <input id="#form-email" class="input-gray" type="email" name="email" required placeholder="Email*">
+                      </div>
+                      <div class="form-group col-sm-12 col-lg-4">
+                        <input id="#form-numb" class="input-gray" name="number" type="number" onkeyup="phonenumber()" placeholder="Mobile"><span id="out_message" style="opacity: 0.5;"></span>
+                        <!-- <input id="#form-subject" class="input-gray" type="text" name="subject" placeholder="Subject (Optinal)"> -->
+                      </div>
+                      <div class="form-group col-sm-12">
+                        <textarea id="#form-message" class="input-gray" name="message"  required  placeholder="Message*"></textarea>
+                      </div>
+                      <div class="g-recaptcha col-sm-5" data-sitekey="6Ldlit0ZAAAAAEjYjd5ZanjhyVD4531RtpTZQ8WN" data-callback="recaptcha_callback"
+                      data-expired-callback="recaptchaExpired"></div>
+                      <div class="col-sm-6"><button id="submit_form" type="submit" class="btn-upper btn-yellow btn" style="border-radius: 200px; font-family: 'gilroy';" disabled>Send Message</button><br>
+                        <div id="message" class="success-message"></div>
+                        </div>                    
+                  </form>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer" class="footer section">
+      <div class="footer-flex">
+        <div class="flex-item">
+          <a class="brand pull-left adjust-left" href="#" >
+            <img alt="" src="./Assets/Logo.svg" style="height: 2rem;">
+          </a>
+        </div>
+        <div class="flex-item">
+          <ul class="lang-list">
+            <li ><a href="https://marketfeed.news/terms-of-use/">Terms of Use</a></li>
+            <li><a href="https://marketfeed.news/disclaimer/">Disclaimer</a></li>
+            <li><a href="https://marketfeed.news/privacy-policy/">Privacy Policy</a></li>
+          </ul> 
+        </div>
+        <div class="flex-item">
+          <div class="inline-block pull-sm-right">© fundfolio 2020. All Rights Reserved.</div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- jQuery -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/smoothscroll.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+
+
+  <!-- Scripts 
+  <script src="js/rev-slider-init.js"></script>-->
+  <script src="js/scripts.js"></script>
+</body>
+</html>
