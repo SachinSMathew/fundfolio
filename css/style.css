@@ -87,7 +87,9 @@
 .we_help{
   background-image: linear-gradient(121deg, #ff4f84 0%, #cc67b6 32%, #9078e4 51%, #737ffa 79%, #6ef9d0 100%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  /* -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
   letter-spacing: normal;
   line-height: normal;
 }
@@ -111,11 +113,7 @@
 .content-center{
   justify-content: center;
 }
-/*
-.boxed{
-  border: 1px solid green ;
-}
-*/
+
 /* 1.1 General */
 
 
